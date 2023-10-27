@@ -1,0 +1,16 @@
+#N canvas 426 228 819 491 12;
+#X obj 128 57 print;
+#X text 44 58 Ctrl + 1;
+#X msg 128 113 hola mundo;
+#X floatatom 128 175 5 0 0 0 - - - 0;
+#X text 44 111 Ctrl + 2;
+#X text 44 170 Ctrl + 3;
+#X text 214 112 <-- Esto es una caja de "Mensaje" clickeable. Cuando se clickea \, dispara lo que tiene adentro., f 49;
+#X text 182 54 <-- Este es una caja de "Objeto". En este caso se trata de [print] \, que imprime mensajes en la "consola", f 54;
+#X listbox 120 269 8 0 0 0 - - - 0;
+#X text 179 174 <-- Esto es una caja de "Número". Arrastrable (click+drag) o editable con teclado. Cuando se lo acciona \, dispara los datos., f 45;
+#X text 48 270 Ctrl + 4;
+#X text 184 268 <-- Esto es una caja de "Símbolo" (o de lista). Editable con teclado. Cuando se lo acciona \, dispara los datos., f 45;
+#X text 42 350 Ctrl + 5;
+#X text 144 351 Esto es un comentario de texto.;
+#X text 214 19 TIPOS DE OBJETOS EN PURE DATA;
